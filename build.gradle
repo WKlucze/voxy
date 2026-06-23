@@ -26,6 +26,7 @@ repositories {
     }
     maven { url = "https://maven.shedaniel.me/" }
     maven { url = "https://maven.terraformersmc.com/releases/" }
+    maven { url = "https://cursemaven.com" }
 
     exclusiveContent {
         forRepository {
@@ -109,7 +110,7 @@ dependencies {
     modRuntimeOnlyMsk "maven.modrinth:sodium:mc1.21.1-0.8.12-alpha.3-fabric"
     modCompileOnly "maven.modrinth:sodium:mc1.21.1-0.8.12-alpha.3-fabric"
 
-    modImplementation("maven.modrinth:lithium:mc1.21.1-0.15.0-fabric")
+    modImplementation("curse.maven:lithium-360438:6290412")
 
     // modRuntimeOnlyMsk "drouarb:nvidium:0.4.1-beta9:1.21-1.21.1@jar"
     modCompileOnly "drouarb:nvidium:0.4.1-beta9:1.21-1.21.1@jar"
